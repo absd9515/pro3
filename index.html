@@ -8,6 +8,11 @@
 	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript">
     document.oncontextmenu = function(){return false;}
+		var userName = prompt("듣고싶은 노래를 선택해주세요 (숫자만) 1.밤하늘의 별을 2.나비와 고양이", "");
+        var audio = new Audio('audio.mp3');
+        if(userName=="1") audio.play("audio");
+        else audio = new Audio('audioo.mp3');
+        audio.play("audio")
 </script>
 </head>
 <body>
